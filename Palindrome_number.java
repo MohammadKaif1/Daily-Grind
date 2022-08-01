@@ -11,14 +11,14 @@ public class Palindrome_number {
 
      static boolean IsPalindrome(int n) {
         int original = n;
-        int sum=0;
+        int ans=0;
         while(n>0)
         {
             int rem = n%10;
             n/=10;
-            sum= sum*10+rem;
+            ans= ans*10+rem;
         }
 
-        return sum==original;
+        return ans==original;
     }
 }
