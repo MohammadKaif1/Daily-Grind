@@ -7,12 +7,12 @@ public class Reversing_array {
         Scanner in = new Scanner(System.in);
 
 
-        int arr[]= new int[7];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i]=in.nextInt();
+        int prr[]= new int[7];
+        for (int i = 0; i < prr.length; i++) {
+            prr[i]=in.nextInt();
         }
-        reverse(arr,0,6);
-        System.out.println(Arrays.toString(arr));
+        reverse(prr,0,6);
+        System.out.println(Arrays.toString(prr));
 
 
 
