@@ -9,7 +9,7 @@ public class Searching_in_2D_array {
                         {23,45,66,77,48},
                         {77,43,31},
                         {68,79,44,87},
-                        {91,42,83,94,4044}
+                        {91,42,83,94,4048}
                     };
         int ans[] =  Search(arr,target);
         System.out.println(Arrays.toString(ans));
