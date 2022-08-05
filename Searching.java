@@ -6,7 +6,7 @@ public class Searching {
          You have to search the index of target element*/
         Scanner in = new Scanner(System.in);
 
-        int target= 31;
+        int target=63;
         int []arr = {41,23,45,67,88,91,46,31,63,78};
 
         int result = searching(arr,target);
