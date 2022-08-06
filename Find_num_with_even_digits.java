@@ -6,12 +6,12 @@ public class Find_num_with_even_digits {
                     OUTPUT-->3
                     */
         int [] arr= {12,34,555,2222,123444,77};
-        int result = findNumbers(arr);
+        int result = findNumber(arr);
         System.out.println(result);
 
 
     }
-    static int findNumbers(int []nums)
+    static int findNumber(int []nums)
     {
         int ans=0;
         for(int i=0;i<nums.length;i++){
