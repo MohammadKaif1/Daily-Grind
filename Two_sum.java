@@ -22,8 +22,8 @@ public class Two_sum {
 
 
         }
-        int ans []= TwoSum(arr,target);
-        System.out.println(Arrays.toString(ans));
+        int result []= TwoSum(arr,target);
+        System.out.println(Arrays.toString(result));
     }
 
      static int[] TwoSum(int[] nums, int target) {
