@@ -7,7 +7,7 @@ public class Searching {
         Scanner in = new Scanner(System.in);
 
         int target=63;
-        int []arr = {41,23,45,67,88,91,46,31,63,78};
+        int []arr = {41,23,56,67,88,91,46,31,63,78};
 
         int result = searching(arr,target);
         System.out.println(result);
