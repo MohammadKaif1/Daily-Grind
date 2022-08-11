@@ -5,8 +5,8 @@ public class Find_num_with_even_digits {
         Example-->> INPUT-->[12,4,34,6,2345]
                     OUTPUT-->3
                     */
-        int [] arr= {12,34,555,2222,123444,77};
-        int result = findNumber(arr);
+        int [] prr= {12,34,555,2222,123444,77};
+        int result = findNumber(prr);
         System.out.println(result);
 
 
